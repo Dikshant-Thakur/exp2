@@ -4,7 +4,7 @@ This repository contains the ROS 2 package developed for Assignment 2, which ena
 
 
 ## Overview
-The goal of this project is to use a robot equipped with a camera and laser scanner to locate markers and move to the waypoint associated with the marker having the lowest ID. 
+The goal of this project is to use a mobile robot equipped with a camera and laser scanner and it needs to visit 4 waypoints. At each waypoint, it will use its camera to detect visual markers (e.g., ArUco markers). The robot will check the marker IDs at all waypoints and identify the smallest ID. Finally, it will navigate to the waypoint linked to the smallest ID. The robot will use PlanSys2 for this process.
 
 ## Prerequisites
 The following tools and dependencies are required:
